@@ -14,8 +14,10 @@
     </head>
 <style>
     body {
-        background-color: #111827;
-        color: white;
+        background: #D66D75;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     }
 
     .cssload-triangles {
@@ -31,7 +33,7 @@
     .cssload-tri {
         position: absolute;
         animation: cssload-pulse 862.5ms ease-in infinite;
-        border-top: 26px solid rgb(33, 90, 109);
+        border-top: 26px solid rgb(254, 149, 167);
         border-left: 15px solid transparent;
         border-right: 15px solid transparent;
         border-bottom: 0px;
@@ -39,7 +41,7 @@
 
     .cssload-tri.cssload-invert {
         border-top: 0px;
-        border-bottom: 26px solid rgb(33, 90, 109);
+        border-bottom: 26px solid rgb(255, 255, 255);
         border-left: 15px solid transparent;
         border-right: 15px solid transparent;
     }
